@@ -22,17 +22,21 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-Multiple pages with navigation (Home, Projects, Experience, Contact), headings/paragraphs,
-semantic tags (header/nav/main/section/aside/footer), and an image with descriptive alt text.
+At least one image, with descriptive alt attribute(s)
+Appropriate headings and paragraph text
+Multiple pages, with appropriate navigation between them
+Semantic HTML tags like aside or footer
 
 
 (b) CSS features
-Custom color palette, spacing/padding for readability, and Bootstrap helpers for rounded
-images and responsive tables/cards.
+Modifying padding and margins to indent content and enhance readability
+Leveraging Bootstrap CSS helpers such as image shapes and table layouts to display content in a more interesting manner
+Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the resources tab
 
 
 (c) Advanced features
-Responsive navigation bar and a contact form built with HTML forms.
+Creating a more complex page layout, such as including a sidebar or navigation bar
+A contact form which leverages HTML forms
 
 
 

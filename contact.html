@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Haoyang Ding">
+  <meta name="description" content="Contact Haoyang Ding.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  >
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact | Haoyang Ding</title>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Haoyang Ding</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#primaryNav"
+          aria-controls="primaryNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="primaryNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="Haoyang%20Ding%27s%20Resume.pdf" target="_blank" rel="noreferrer">
+                Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container content">
+    <section class="page-header">
+      <h1 class="display-6">Contact</h1>
+      <p class="mb-0">
+        I’d love to connect about product strategy, UX research, or systems design opportunities.
+      </p>
+    </section>
+
+    <section class="row g-4">
+      <div class="col-12 col-lg-7">
+        <div class="contact-card">
+          <h2 class="h5">Send a Message</h2>
+          <form>
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <label class="form-label" for="contactName">Full Name</label>
+                <input class="form-control" type="text" id="contactName" name="contactName" required>
+              </div>
+              <div class="col-12 col-md-6">
+                <label class="form-label" for="contactEmail">Email Address</label>
+                <input class="form-control" type="email" id="contactEmail" name="contactEmail" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="contactTopic">What would you like to discuss?</label>
+                <select class="form-select" id="contactTopic" name="contactTopic" required>
+                  <option value="" selected disabled>Choose a topic</option>
+                  <option value="product">Product strategy or requirements</option>
+                  <option value="ux">UX research and design</option>
+                  <option value="data">Data and analytics</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="contactMessage">Message</label>
+                <textarea
+                  class="form-control"
+                  id="contactMessage"
+                  name="contactMessage"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <div class="col-12 d-flex flex-wrap gap-2">
+                <button class="btn btn-primary" type="submit">Send Message</button>
+                <button class="btn btn-outline-secondary" type="reset">Reset</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <aside class="col-12 col-lg-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="h5">Contact Details</h2>
+            <p class="mb-1"><strong>Email:</strong> dhymorgan0131@gmail.com</p>
+            <p class="mb-1"><strong>Location:</strong> Irvine, CA</p>
+            <p class="mb-1"><strong>LinkedIn:</strong> linkedin.com/in/morgan-ding</p>
+            <p class="mb-0">
+              I’m available for internships, part-time opportunities, and collaborative projects in
+              product, UX, and data-driven systems.
+            </p>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer mt-5">
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <div class="col-12 col-md-8">
+          <p class="mb-1">Thanks for stopping by.</p>
+          <p class="mb-0">I aim to respond within 1–2 business days.</p>
+        </div>
+        <div class="col-12 col-md-4 text-md-end">
+          <a href="index.html">Back to Home</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
+

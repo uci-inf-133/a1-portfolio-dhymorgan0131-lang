@@ -19,6 +19,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 - 1/1 Passes validation checks
 - 2/2 Embraces spirit of the assignment
 
+
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
@@ -39,10 +40,8 @@ Creating a more complex page layout, such as including a sidebar or navigation b
 A contact form which leverages HTML forms
 
 
-
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-No. Any warnings were resolved by ensuring semantic headings, labels on form inputs, and
-descriptive alt text.
+No. Any warnings were resolved. I checked by ensuring semantic headings, labels on form inputs, and descriptive alt text.
 
 
 4. How long, in hours, did it take you to complete this assignment?
@@ -60,4 +59,4 @@ None.
 
 
 7. Is there anything special we need to know in order to run your code?
-Open index.html in a browser. No build step required.
+No, just open index.html in a browser. No build step required.
